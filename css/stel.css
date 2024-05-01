@@ -1,0 +1,148 @@
+.dropdown:hover a{
+
+    color: blue;
+}
+
+header{
+
+    background-image: url(../pecter/hero-bg.jpg);
+    min-height: 100vh;
+    background-position: center center;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.capitin h1 {
+
+
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    
+}
+.about{
+    background-color:#fff;
+}
+
+.item{
+    text-align: center;
+    padding: 20px;
+
+}
+#servess .item{
+padding: 20px;
+border-radius: 5px;
+box-sizing: border-box;
+background-color: #fff;
+}
+#servess{
+
+    background-color: aquamarine;
+    padding: 80px 0;
+}
+#servess .item h3::after{
+
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: widh 1s;
+}
+#servess .item h3{
+    position: relative;
+}
+#servess .item:hover h3::after{
+    width: 100px;
+}
+
+#servess .item .iconnn{
+    width: 7cqh;
+    height: 50px;
+    display: flex;
+    background-color:aquamarine;
+    color: blueviolet;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 1s;
+    border: 5px solid #eee;
+}
+#servess .item:hover .iconnn{
+    background-color: #fff;
+}
+.nav-item:hover a{
+    background-color: red;
+}
+.ingerdin{
+    background-image: url(../pecter/post-1.jpg);
+background-image: linear-gradient( red red red );
+height: 50vh;
+padding: 20px;
+
+}
+
+img{
+
+    width: 1px;
+    transition: transform 1s;
+
+}
+.card:hover img{
+    transform: scale(2);
+
+}
+
+.testminael{
+    background-image: url(../pecter/post-1.jpg);
+    min-height: 80vh;
+    background-position: center center;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.information span{
+    color: #fff;
+}
+.information h3{
+    color:aqua;
+    text-align: center;
+    justify-content: center;
+}
+.information h4{
+
+    color: aqua;
+}
+.information:hover h4{
+    color: black;
+}
+.information:hover h3{
+    color: black;
+}
+.information:hover span{
+    color: black;
+}
+.capitin{
+
+ transition:transform 2s ;
+}
+.capitin:hover h1{
+    color: blue;
+    transform: scaleX(2) rotate(360deg);
+    
+
+}
+h1{
+
+    widows: 100px;
+ transition:transform 2s ;
+
+}
+
+
